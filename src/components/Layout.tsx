@@ -9,6 +9,11 @@ export function Layout() {
           Sahasra Arangetram
           <span className="header__ornament">✦</span>
         </Link>
+        <nav className="header__nav" aria-label="Main navigation">
+          <Link to="/">Program</Link>
+          <Link to="/about-dancer">Dancer</Link>
+          <Link to="/guru">Guru</Link>
+        </nav>
       </header>
 
       <main className="main">
