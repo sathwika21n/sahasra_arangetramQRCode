@@ -4,7 +4,7 @@ export function Layout() {
   return (
     <div className="app">
       <header className="header">
-        <Link to="/program" className="header__brand">
+        <Link to="/" className="header__brand">
           <span className="header__ornament">✦</span>
           Sahasra Arangetram
           <span className="header__ornament">✦</span>

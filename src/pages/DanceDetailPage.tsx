@@ -10,7 +10,7 @@ export function DanceDetailPage() {
     return (
       <div className="not-found">
         <h1>Dance not found</h1>
-        <Link to="/program">Return to program</Link>
+        <Link to="/">Return to program</Link>
       </div>
     )
   }

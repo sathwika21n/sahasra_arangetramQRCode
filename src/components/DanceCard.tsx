@@ -8,7 +8,7 @@ interface DanceCardProps {
 
 export function DanceCard({ dance, index }: DanceCardProps) {
   return (
-    <Link to={`/program/${dance.id}`} className="dance-card">
+    <Link to={`/dance/${dance.id}`} className="dance-card">
       <div className="dance-card__image-wrap">
         <img
           src={dance.image}

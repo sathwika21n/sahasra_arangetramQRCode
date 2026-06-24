@@ -2,13 +2,12 @@
 export function getProgramUrl(): string {
   const configured = import.meta.env.VITE_SITE_URL?.trim()
   if (configured) {
-    const url = configured.replace(/\/$/, '')
-    return url.endsWith('/program') ? url : `${url}/program`
+    return configured.replace(/\/$/, '')
   }
 
   if (typeof window !== 'undefined') {
-    return `${window.location.origin}/program`
+    return window.location.href.split('#')[0].replace(/\/$/, '')
   }
 
-  return '/program'
+  return '/'
 }

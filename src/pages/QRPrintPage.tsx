@@ -74,7 +74,7 @@ export function QRPrintPage() {
         </ol>
       </section>
 
-      <Link to="/program" className="back-link">
+      <Link to="/" className="back-link">
         ← Preview the program
       </Link>
     </div>
