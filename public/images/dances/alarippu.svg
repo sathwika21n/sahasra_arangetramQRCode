@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="533" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4a1a28"/>
+      <stop offset="1" stop-color="#1a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="533" fill="url(#bg)"/>
+  <circle cx="200" cy="180" r="60" stroke="#c9a227" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="200" cy="180" r="90" stroke="#c9a227" stroke-width="1" opacity="0.2"/>
+  <path d="M200 130 L200 230 M160 180 L240 180" stroke="#e8d5a3" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  <text x="200" y="310" text-anchor="middle" fill="#e8d5a3" font-family="Georgia, serif" font-size="26" font-weight="600">Alarippu</text>
+  <text x="200" y="345" text-anchor="middle" fill="#c9a227" font-family="sans-serif" font-size="13" opacity="0.8">Placeholder image</text>
+  <text x="200" y="490" text-anchor="middle" fill="#c9a227" font-size="36" opacity="0.35">✦</text>
+</svg>

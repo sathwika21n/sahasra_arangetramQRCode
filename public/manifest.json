@@ -1,0 +1,24 @@
+{
+  "name": "Sahasra Arangetram",
+  "short_name": "Arangetram",
+  "description": "Dance program for Sahasra's Bharatanatyam arangetram",
+  "start_url": "/program",
+  "display": "standalone",
+  "background_color": "#faf6f0",
+  "theme_color": "#6b1d1d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
