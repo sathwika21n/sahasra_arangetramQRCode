@@ -1,5 +1,6 @@
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { Layout } from './components/Layout'
+import { HomePage } from './pages/HomePage'
 import { ProgramPage } from './pages/ProgramPage'
 import { DanceDetailPage } from './pages/DanceDetailPage'
 import { QRPrintPage } from './pages/QRPrintPage'
@@ -11,7 +12,7 @@ function App() {
     <HashRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<ProgramPage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/program" element={<ProgramPage />} />
           <Route path="/about-dancer" element={<AboutDancerPage />} />
           <Route path="/guru" element={<GuruPage />} />
