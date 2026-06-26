@@ -69,10 +69,9 @@ export function HomePage() {
                 <article className="guru-card">
                   <img src="images/madhusreeAunty-photo.jpg" alt="Guru Name" className="guru-card__image"/>
                   <div>
-                    <h3>Guru Name</h3>
+                    <h3>Smt. Madhusri Sethuraman</h3>
                     <p>
-                      Add a short description of Sahasra&apos;s first guru here,
-                      including their role in her training and artistic foundation.
+                      Sahasra has been training under Smt. Madhusri Sethuraman for the past 5 years. She has been a source of inspiration and guidance, helping Sahasra develop her skills and artistic expression.
                     </p>
                   </div>
                 </article>
@@ -80,10 +79,9 @@ export function HomePage() {
                 <article className="guru-card">
                   <img src="/path/to/guru-two-photo.jpg" alt="Current Guru Name" className="guru-card__image"/>
                   <div>
-                    <h3>Current Guru Name</h3>
+                    <h3>Smt. Sivagami Vanka </h3>
                     <p>
-                      Add a short description of Sahasra&apos;s current guru here,
-                      including their guidance for this arangetram.
+                      Smt. Sivagami Vanka was Sahasra's first guru and laid the foundation for her journey in Bharatanatyam.
                     </p>
                   </div>
                 </article>

@@ -335,29 +335,30 @@ button {
 
 .guru-card {
   display: grid;
-  grid-template-columns: 96px 1fr;
+  grid-template-columns: minmax(120px, auto) 1fr;
   gap: 1rem;
-  align-items: center;
+  align-items: start;
   background: var(--color-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   padding: 1rem;
+  box-shadow: var(--shadow-sm);
 }
 
 .guru-card__image {
-  aspect-ratio: 1;
+  width: auto;
+  max-width: 140px;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
   border-radius: var(--radius);
   background:
     linear-gradient(135deg, rgba(107, 29, 29, 0.85), rgba(26, 10, 10, 0.9)),
     radial-gradient(circle at 30% 20%, var(--color-accent-soft), transparent 45%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  text-align: center;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.5rem;
+  display: block;
+  padding: 0.25rem;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
 }
 
 .guru-card h3 {
