@@ -3,9 +3,9 @@ export function AboutDancerPage() {
     <article className="profile-page">
       <header className="profile-hero">
         <p className="profile-hero__eyebrow">About the Dancer</p>
-        <h1>Sahasra</h1>
+        <h1>Sahasra Thatiparthi</h1>
         <p>
-          Sahasra has been studying Bharatanatyam with dedication, discipline,
+          Sahasra has been learning Bharatanatyam from the last 10 years with discipline,
           and joy. Her arangetram marks an important milestone in her artistic
           journey: a celebration of years of training, perseverance, and love
           for this classical dance tradition.

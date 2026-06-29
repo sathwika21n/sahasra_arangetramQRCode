@@ -20,6 +20,12 @@ export function HomePage() {
 
   return (
     <div className="pamphlet">
+      <div className="pamphlet__bells" aria-hidden="true">
+        <span className="pamphlet__bell pamphlet__bell--left">🔔</span>
+        <span className="pamphlet__bell pamphlet__bell--center">🔔</span>
+        <span className="pamphlet__bell pamphlet__bell--right">🔔</span>
+      </div>
+
       {/* Page 1: About Dancer & Gurus */}
       {currentPage === 1 && (
         <div className="pamphlet__page">
@@ -29,9 +35,9 @@ export function HomePage() {
               <div className="dancer-page__text">
                 <header className="profile-hero">
                   <p className="profile-hero__eyebrow">About the Dancer</p>
-                  <h1>Sahasra</h1>
+                  <h1>Sahasra Thatiparthi</h1>
                   <p>
-                    Sahasra has been studying Bharatanatyam with dedication, discipline,
+                    Sahasra has been learning Bharatanatyam from the last 10 years with discipline,
                     and joy. Her arangetram marks an important milestone in her artistic
                     journey: a celebration of years of training, perseverance, and love
                     for this classical dance tradition.
@@ -77,7 +83,7 @@ export function HomePage() {
                 </article>
 
                 <article className="guru-card">
-                  <img src="/path/to/guru-two-photo.jpg" alt="Current Guru Name" className="guru-card__image"/>
+                  <img src="images/sivagamiAunty-photo.jpg" alt="Current Guru Name" className="guru-card__image"/>
                   <div>
                     <h3>Smt. Sivagami Vanka </h3>
                     <p>
