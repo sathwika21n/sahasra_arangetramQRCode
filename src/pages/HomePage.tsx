@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { dances } from '../data/dances'
 import { DanceCard } from '../components/DanceCard'
-import sahasraPhoto from '../assets/hero.png'
+//import sahasraPhoto from '../assets/hero.png'
 
 export function HomePage() {
   const [currentPage, setCurrentPage] = useState(1)
