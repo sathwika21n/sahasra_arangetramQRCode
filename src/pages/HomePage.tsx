@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { dances } from '../data/dances'
 import { DanceCard } from '../components/DanceCard'
+import sahasraPhoto from '../assets/hero.png'
 
 export function HomePage() {
   const [currentPage, setCurrentPage] = useState(1)
@@ -56,9 +57,11 @@ export function HomePage() {
               </div>
               
               <div className="dancer-page__image">
-                <div className="dancer-page__image-placeholder">
-                  <span>Sahasra's Photo</span>
-                </div>
+                <img
+                  src="images/Sahasra-40.jpg"
+                  alt="Sahasra"
+                  className="dancer-page__image-placeholder"
+                />
               </div>
             </div>
           </article>
