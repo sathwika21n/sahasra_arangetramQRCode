@@ -11,3 +11,15 @@ export function getProgramUrl(): string {
 
   return '/'
 }
+
+export function getPublicAssetUrl(path: string): string {
+  const normalizedPath = path.replace(/^\/+/, '')
+  const base = import.meta.env.BASE_URL?.trim() || '/'
+
+  if (/^https?:\/\//i.test(base)) {
+    return new URL(normalizedPath, base.endsWith('/') ? base : `${base}/`).toString()
+  }
+
+  const resolvedBase = base === '/' ? '' : base.replace(/\/$/, '')
+  return `${resolvedBase}/${normalizedPath}`.replace(/\/\/+/g, '/')
+}

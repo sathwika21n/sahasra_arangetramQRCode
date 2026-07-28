@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import { dances } from '../data/dances'
 import { DanceCard } from '../components/DanceCard'
-import { getProgramUrl } from '../utils/siteUrl'
+import { getPublicAssetUrl } from '../utils/siteUrl'
 //import sahasraPhoto from '../assets/hero.png'
 
 export function HomePage() {
   const [currentPage, setCurrentPage] = useState(1)
   const totalPages = 2
-  const baseUrl = getProgramUrl()
-  const imageBaseUrl = `${baseUrl.replace(/\/$/, '')}/images`
+  const imageBaseUrl = getPublicAssetUrl('/images')
 
   const handleNextPage = () => {
     if (currentPage < totalPages) {
