@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import { dances } from '../data/dances'
 import { DanceCard } from '../components/DanceCard'
+import { getProgramUrl } from '../utils/siteUrl'
 //import sahasraPhoto from '../assets/hero.png'
 
 export function HomePage() {
   const [currentPage, setCurrentPage] = useState(1)
   const totalPages = 2
+  const baseUrl = getProgramUrl()
+  const imageBaseUrl = `${baseUrl.replace(/\/$/, '')}/images`
 
   const handleNextPage = () => {
     if (currentPage < totalPages) {
@@ -58,7 +61,7 @@ export function HomePage() {
               
               <div className="dancer-page__image">
                 <img
-                  src="images/Sahasra-40.jpg"
+                  src={`${imageBaseUrl}/Sahasra-40.jpg`}
                   alt="Sahasra"
                   className="dancer-page__image-placeholder"
                 />
@@ -76,7 +79,7 @@ export function HomePage() {
             <section className="profile-section">
               <div className="guru-card-grid">
                 <article className="guru-card">
-                  <img src="images/madhusreeAunty-photo.jpg" alt="Guru Name" className="guru-card__image"/>
+                  <img src={`${imageBaseUrl}/madhusreeAunty-photo.jpg`} alt="Guru Name" className="guru-card__image"/>
                   <div>
                     <h3>Smt. Madhusri Sethuraman</h3>
                     <p>
@@ -88,7 +91,7 @@ export function HomePage() {
                 </article>
 
                 <article className="guru-card">
-                  <img src="images/sivagamiAunty-photo.jpg" alt="Current Guru Name" className="guru-card__image"/>
+                  <img src={`${imageBaseUrl}/sivagamiAunty-photo.jpg`} alt="Current Guru Name" className="guru-card__image"/>
                   <div>
                     <h3>Smt. Sivagami Vanka </h3>
                     <p>
