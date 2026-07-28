@@ -80,7 +80,9 @@ export function HomePage() {
                   <div>
                     <h3>Smt. Madhusri Sethuraman</h3>
                     <p>
-                      Sahasra has been training under Smt. Madhusri Sethuraman for the past 5 years. She has been a source of inspiration and guidance, helping Sahasra develop her skills and artistic expression.
+                      Smt. Madhusri Sethuraman has been in the dance field for over 50 years and is recognized as an outstanding Bharatanatyam artist. 
+
+                      Madhusri started dance at the age of four and had her arangetram at the age of eight. Till now, Madhusri has given over 500 performances in India, U.S.A, Europe, Australia, Singapore, China and Hong Kong. She started as a volunteer dance teacher in 1988 and founded the Srutilaya school of dance in 1992, through which she has taught over 1,000 students and conducted over 150 arangetrams.
                     </p>
                   </div>
                 </article>
@@ -90,7 +92,7 @@ export function HomePage() {
                   <div>
                     <h3>Smt. Sivagami Vanka </h3>
                     <p>
-                      Smt. Sivagami Vanka was Sahasra's first guru and laid the foundation for her journey in Bharatanatyam.
+                      Smt. Sivagami Vanka was Sahasra's first Bharatanatyam guru and the one who ignited her passion for this beautiful classical art form. With patience, and encouragement, she guided Sahasra through her foundational years of dance, instilling in her the discipline and confidence that Bharatanatyam demands. Under her nurturing mentorship, Sahasra built a strong foundation in technique, rhythm, expression, and tradition. The values and skills imparted by Guru Sivagami continue to inspire Sahasra as she reaches this significant milestone in her Bharatanatyam journey.
                     </p>
                   </div>
                 </article>
@@ -100,10 +102,9 @@ export function HomePage() {
             <section className="profile-section profile-section--featured">
               <h2>Training & Preparation</h2>
               <p>
-                Under her guru&apos;s direction, Sahasra has developed technique,
-                expression, stamina, musical understanding, and stage presence. Replace
-                this placeholder with specific details about the guru&apos;s mentorship
-                and the preparation for this performance.
+                An Arangetram marks the culmination of years of dedicated learning, perseverance, and unwavering commitment. Under the guidance of Guru Smt. Madhusri Sethuraman, Sahasra has spent countless hours perfecting every aspect of her performance—from intricate footwork and expressive abhinaya to rhythm, endurance, and artistry. Each rehearsal has challenged her to grow not only as a dancer but also as an individual, instilling discipline, confidence, resilience, and a deep respect for the rich traditions of Bharatanatyam.
+
+                This performance is the result of years of learning, months of intensive preparation, and the constant encouragement of her guru, family, and well-wishers. As Sahasra steps onto the stage for her Arangetram, she does so with gratitude for everyone who has been a part of her journey and with the hope of honoring the timeless legacy of Bharatanatyam through her performance.
               </p>
             </section>
 

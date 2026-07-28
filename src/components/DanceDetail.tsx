@@ -66,7 +66,7 @@ export function DanceDetail({ dance }: DanceDetailProps) {
           </ul>
         </section>
 
-        <Link to="/" className="back-link">
+        <Link to="/program" className="back-link">
           ← Back to Program
         </Link>
       </div>

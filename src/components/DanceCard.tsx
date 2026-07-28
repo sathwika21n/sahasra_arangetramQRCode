@@ -15,6 +15,9 @@ export function DanceCard({ dance, index }: DanceCardProps) {
           alt={dance.name}
           className="dance-card__image"
           loading="lazy"
+          onError={(event) => {
+            event.currentTarget.src = '/images/dances/pushpanjali.svg'
+          }}
         />
         <span className="dance-card__number">{index + 1}</span>
       </div>
