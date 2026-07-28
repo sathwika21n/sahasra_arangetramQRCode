@@ -68,7 +68,7 @@ export const dances: Dance[] = [
     name: 'Charukesi Varnam',
     image: getPublicAssetUrl('/images/dances/Sahasra-93.jpg'),
     description:
-      'A lyrical piece combining dance and simple abhinaya, often depicting themes of devotion or love. Shabdam introduces expressive storytelling while maintaining graceful nritta passages.',
+      "The Varnam, the centerpiece of a Bharatanatyam recital, beautifully combines intricate rhythmic passages with expressive storytelling, allowing the dancer to demonstrate both technical mastery and emotional depth. Set in the evocative raga Charukesi, this composition portrays the heartfelt longing of Srimati Radharani as she yearns for the arrival of her beloved Lord Krishna. Reflecting upon His boundless compassion, she recalls how He rushed to rescue Gajendra from peril and lovingly welcomed His devoted friend Sudama with warmth and grace, wondering why the same Krishna has not yet come to her. Immersed in thoughts of Him, Radharani sees His presence in every sight and every moment. Filled with hope, she adorns herself, decorates her home, and eagerly awaits His arrival, her heart overflowing with love, devotion, anticipation, and the gentle sorrow of separation. Interwoven with graceful choreography, intricate jatis, and expressive abhinaya, this Varnam captures the timeless emotions of unwavering devotion and the soul's eternal yearning for union with the Divine.",
     duration: '30 minutes',
     artist: 'Sahasra',
     //composer: 'Composer Name',
