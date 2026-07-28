@@ -18,6 +18,8 @@ export function DanceCard({ dance, index }: DanceCardProps) {
           alt={dance.name}
           className="dance-card__image"
           loading="lazy"
+          decoding="async"
+          fetchPriority="low"
           onError={(event) => {
             event.currentTarget.src = fallbackImage
           }}

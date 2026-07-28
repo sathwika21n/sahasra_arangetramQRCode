@@ -63,6 +63,8 @@ export function HomePage() {
                   src={`${imageBaseUrl}/Sahasra-40.jpg`}
                   alt="Sahasra"
                   className="dancer-page__image-placeholder"
+                  loading="eager"
+                  decoding="async"
                 />
               </div>
             </div>
@@ -78,7 +80,7 @@ export function HomePage() {
             <section className="profile-section">
               <div className="guru-card-grid">
                 <article className="guru-card">
-                  <img src={`${imageBaseUrl}/madhusreeAunty-photo.jpg`} alt="Guru Name" className="guru-card__image"/>
+                  <img src={`${imageBaseUrl}/madhusreeAunty-photo.jpg`} alt="Guru Name" className="guru-card__image" loading="lazy" decoding="async"/>
                   <div>
                     <h3>Smt. Madhusri Sethuraman</h3>
                     <p>
@@ -90,7 +92,7 @@ export function HomePage() {
                 </article>
 
                 <article className="guru-card">
-                  <img src={`${imageBaseUrl}/sivagamiAunty-photo.jpg`} alt="Current Guru Name" className="guru-card__image"/>
+                  <img src={`${imageBaseUrl}/sivagamiAunty-photo.jpg`} alt="Current Guru Name" className="guru-card__image" loading="lazy" decoding="async"/>
                   <div>
                     <h3>Smt. Sivagami Vanka </h3>
                     <p>
