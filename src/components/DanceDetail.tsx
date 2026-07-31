@@ -13,6 +13,8 @@ export function DanceDetail({ dance }: DanceDetailProps) {
           src={dance.image}
           alt={dance.name}
           className="dance-detail__image"
+          loading="eager"
+          decoding="async"
         />
         <div className="dance-detail__hero-overlay">
           <h1 className="dance-detail__title">{dance.name}</h1>
