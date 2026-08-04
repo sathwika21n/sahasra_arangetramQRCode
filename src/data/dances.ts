@@ -122,10 +122,10 @@ export const dances: Dance[] = [
   },
   {
     id: 'tillana',
-    name: 'Madhuvanthi Tillana',
+    name: 'Madhuvanthi Thillana',
     image: getPublicAssetUrl('/images/dances/Sahasra-18.jpg'),
     description:
-      "The Tillana is the joyous finale of a Bharatanatyam recital, celebrating rhythm, energy, and the sheer beauty of dance. Set in the melodious raga Madhuvanthi, this composition is characterized by vibrant rhythmic syllables, graceful movements, and intricate footwork that showcase the dancer’s precision, agility, and artistic brilliance. Combining dynamic choreography with elegant expressions, the Madhuvanthi Tillana reflects the culmination of years of dedicated training and the joy of artistic expression. The lively rhythm and captivating melody create a spirited conclusion, leaving the audience with a lasting impression of grace, vitality, and celebration. As the final dance of the Arangetram, this Tillana is a joyful offering that celebrates the beauty of Bharatanatyam and marks the successful completion of the dancer’s remarkable journey.",
+      "The Thillana is the joyous finale of a Bharatanatyam recital, celebrating rhythm, energy, and the sheer beauty of dance. Set in the melodious raga Madhuvanthi, this composition is characterized by vibrant rhythmic syllables, graceful movements, and intricate footwork that showcase the dancer’s precision and artistic brilliance. Combining dynamic choreography with elegant expressions, the Madhuvanthi Thillana reflects the culmination of years of dedicated training and the joy of artistic expression. The lively rhythm and captivating melody create a spirited conclusion, leaving the audience with a lasting impression of grace, vitality, and celebration. As the final dance of the Arangetram, this Thillana is a joyful offering that celebrates the beauty of Bharatanatyam and marks the successful completion of the dancer’s remarkable journey.",
     duration: '10 minutes',
     artist: 'Sahasra',
     //composer: 'Composer Name',

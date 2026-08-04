@@ -22,6 +22,15 @@ export function AboutDancerPage() {
         </p>
       </section>
 
+      <section className="profile-section orchestra-section">
+        <h2>About the Orchestra</h2>
+        <p>
+          Add a short description of the orchestra here—share the musicians,
+          their contribution to the performance, or the special role they play
+          in bringing the program to life.
+        </p>
+      </section>
+
       <section className="profile-section">
         <h2>Her Gurus</h2>
         <div className="guru-card-grid">

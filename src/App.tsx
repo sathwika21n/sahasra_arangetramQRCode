@@ -6,6 +6,7 @@ import { DanceDetailPage } from './pages/DanceDetailPage'
 import { QRPrintPage } from './pages/QRPrintPage'
 import { AboutDancerPage } from './pages/AboutDancerPage'
 import { GuruPage } from './pages/GuruPage'
+import { OrchestraMemberPage } from './pages/OrchestraMemberPage'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/program" element={<ProgramPage />} />
           <Route path="/about-dancer" element={<AboutDancerPage />} />
           <Route path="/guru" element={<GuruPage />} />
+          <Route path="/orchestra/:memberId" element={<OrchestraMemberPage />} />
           <Route path="/dance/:danceId" element={<DanceDetailPage />} />
           <Route path="/program/:danceId" element={<DanceDetailPage />} />
           <Route path="/qr" element={<QRPrintPage />} />

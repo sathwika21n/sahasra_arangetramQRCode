@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { dances } from '../data/dances'
 import { DanceCard } from '../components/DanceCard'
 import { getPublicAssetUrl } from '../utils/siteUrl'
@@ -56,6 +57,7 @@ export function HomePage() {
                     art form, including nritta, abhinaya, devotion, musicality, and grace.
                   </p>
                 </section>
+
               </div>
               
               <div className="dancer-page__image">
@@ -80,7 +82,7 @@ export function HomePage() {
             <section className="profile-section">
               <div className="guru-card-grid">
                 <article className="guru-card">
-                  <img src={`${imageBaseUrl}/madhusreeAunty-photo.jpg`} alt="Guru Name" className="guru-card__image" loading="lazy" decoding="async"/>
+                  <img src={`${imageBaseUrl}/madhusreeAunty-photo.jpg`} alt="Portrait of Smt. Madhusri Sethuraman" className="guru-card__image" loading="lazy" decoding="async"/>
                   <div>
                     <h3>Smt. Madhusri Sethuraman</h3>
                     <p>
@@ -92,14 +94,43 @@ export function HomePage() {
                 </article>
 
                 <article className="guru-card">
-                  <img src={`${imageBaseUrl}/sivagamiAunty-photo.jpg`} alt="Current Guru Name" className="guru-card__image" loading="lazy" decoding="async"/>
+                  <img src={`${imageBaseUrl}/sivagamiAunty-photo.jpg`} alt="Portrait of Smt. Sivagami Vanka" className="guru-card__image" loading="lazy" decoding="async"/>
                   <div>
                     <h3>Smt. Sivagami Vanka </h3>
                     <p>
-                      Smt. Sivagami Vanka was Sahasra's first Bharatanatyam guru and the one who ignited her passion for this beautiful classical art form. With patience, and encouragement, she guided Sahasra through her foundational years of dance, instilling in her the discipline and confidence that Bharatanatyam demands. Under her nurturing mentorship, Sahasra built a strong foundation in technique, rhythm, expression, and tradition. The values and skills imparted by Guru Sivagami continue to inspire Sahasra as she reaches this significant milestone in her Bharatanatyam journey.
+                      Smt. Sivagami Vanka was Sahasra's childhood Guru and has been teaching children and adults for about 18 years, both in Portland and in other parts of the United States. Sivagami has established the reputation of being an exacting and dedicated teacher. Her love of this dance form is portrayed in her teaching and caring for her students. Kalabharathi students have about 300 concerts to their credit over the last 15 years. 
                     </p>
                   </div>
                 </article>
+              </div>
+            </section>
+
+            <section className="profile-section orchestra-section">
+              <h2>About the Orchestra</h2>
+              <p>
+                The orchestra brings depth and rhythm to the evening through the artistry of five remarkable musicians.
+              </p>
+              <div className="orchestra-list">
+                <Link to="/orchestra/nattuvangam" className="orchestra-item">
+                  <h3>Nattuvangam</h3>
+                  <p>Smt. Madhusri Sethuraman</p>
+                </Link>
+                <Link to="/orchestra/vocal" className="orchestra-item">
+                  <h3>Vocal</h3>
+                  <p>Smt. Neela Ramanuja</p>
+                </Link>
+                <Link to="/orchestra/mridangam" className="orchestra-item">
+                  <h3>Mridangam</h3>
+                  <p>Sri. G. Pramath Kiran</p>
+                </Link>
+                <Link to="/orchestra/flute" className="orchestra-item">
+                  <h3>Flute</h3>
+                  <p>Sri. Krishna Prasad Anekere</p>
+                </Link>
+                <Link to="/orchestra/rhythym-pads" className="orchestra-item">
+                  <h3>Rhythym Pads</h3>
+                  <p>Sri. Pranavadath Shamdath</p>
+                </Link>
               </div>
             </section>
 
