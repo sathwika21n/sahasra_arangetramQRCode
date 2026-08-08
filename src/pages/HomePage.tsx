@@ -90,6 +90,11 @@ export function HomePage() {
 
                       Madhusri started dance at the age of four and had her arangetram at the age of eight. Till now, Madhusri has given over 500 performances in India, U.S.A, Europe, Australia, Singapore, China and Hong Kong. She started as a volunteer dance teacher in 1988 and founded the Srutilaya school of dance in 1992, through which she has taught over 1,000 students and conducted over 150 arangetrams.
                     </p>
+                    <p>
+                      <a href="http://www.madhudance.com/" target="_blank" rel="noopener noreferrer">
+                        <strong>http://www.madhudance.com/madhusri/</strong>
+                      </a>
+                    </p>
                   </div>
                 </article>
 
@@ -98,7 +103,12 @@ export function HomePage() {
                   <div>
                     <h3>Smt. Sivagami Vanka </h3>
                     <p>
-                      Smt. Sivagami Vanka was Sahasra's childhood Guru and has been teaching children and adults for about 18 years, both in Portland and in other parts of the United States. Sivagami has established the reputation of being an exacting and dedicated teacher. Her love of this dance form is portrayed in her teaching and caring for her students. Kalabharathi students have about 300 concerts to their credit over the last 15 years. 
+                      Smt. Sivagami Vanka was Sahasra's childhood Guru and has been teaching children and adults for about above 20 years, both in Portland and in other parts of the United States. Sivagami has established the reputation of being an exacting and dedicated teacher. Her love of this dance form is portrayed in her teaching and caring for her students. Kalabharathi students have about 300 concerts to their credit over the last 15 years. She has given dance performances in several cities in India, Africa, USA and Europe.
+                    </p>
+                    <p>
+                      <a href="https://www.kalabharathi.com/sivagami-vanka/founderdirector/" target="_blank" rel="noopener noreferrer">
+                        <strong>https://www.kalabharathi.com/sivagami-vanka/founderdirector/</strong>
+                      </a>
                     </p>
                   </div>
                 </article>
