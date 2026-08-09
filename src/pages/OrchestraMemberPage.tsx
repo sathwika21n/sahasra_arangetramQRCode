@@ -14,6 +14,7 @@ const orchestraMembers: OrchestraMember[] = [
     name: 'Smt. Madhusri Sethuraman',
     description: [
       'Smt. Madhusri Sethuraman brings the rhythm and structure of the performance to life through her precise nattuvangam. Her guidance shapes the flow, timing, and expressive storytelling that make the evening so special.',
+      "As Sahasra's dance teacher and mentor, Smt. Madhusri has guided Sahasra's training in technique, abhinaya, repertoire selection, and stagecraft. With decades of teaching experience and deep musical insight, she has prepared Sahasra for this Arangetram through patient instruction, tailored rehearsals, and a commitment to artistic growth.",
     ],
   },
   {

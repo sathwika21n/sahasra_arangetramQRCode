@@ -142,6 +142,7 @@ export function HomePage() {
                   <p>Sri. Pranavadath Shamdath</p>
                 </Link>
               </div>
+              
             </section>
 
             <section className="profile-section profile-section--featured">
